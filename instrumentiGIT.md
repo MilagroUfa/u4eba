@@ -45,7 +45,7 @@ git log -L :'func globalPluginDirs':plugins.go --oneline
 
 7 Кто автор функции synchronizedWriters?
 
-git log -S'func synchronizedWriters(' --oneline
+ git log -S'func synchronizedWriters(' --oneline
 bdfea50cc8 remove unused
 5ac311e2a9 main: synchronize writes to VT100-faker on Windows
 
