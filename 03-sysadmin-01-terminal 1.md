@@ -29,7 +29,7 @@ HDD - 64Гб
 
 #### 3. Познакомьтесь с возможностями конфигурации VirtualBox через Vagrantfile: [документация](https://www.vagrantup.com/docs/providers/virtualbox/configuration.html). Изучите, как добавить оперативную память или ресурсы процессора виртуальной машине.
 
-Не верная ссылка на документацию!!! Вот верная >> https://developer.hashicorp.com/vagrant/docs/providers/virtualbox/configuration
+#### Не верная ссылка на документацию!!! Вот верная >> https://developer.hashicorp.com/vagrant/docs/providers/virtualbox/configuration
 Тк по большей части  все закоментировано добавляем/или правим:
 
 config.vm.provider "virtualbox" do |v|
