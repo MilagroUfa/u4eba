@@ -34,11 +34,10 @@ variable "vpc_name" {
   description = "VPC network & subnet name"
 }
 
-
 ###ssh vars
 
 variable "vms_ssh_root_key" {
   type        = string
-  default     = "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZWQyNTUxOQAAACDAbqNmAfqjUErnObHU89r0AnWBHitAcfADz4ASx0gd8gAAAJCybC/msmwv5gAAAAtzc2gtZWQyNTUxOQAAACDAbqNmAfqjUErnObHU89r0AnWBHitAcfADz4ASx0gd8gAAAEAVRQgE4y3hUzGF/88kzTdkPWWnIlbBSUQ4BB8zdXLG38Buo2YB+qNQSuc5sdTz2vQCdYEeK0Bx8APPgBLHSB3yAAAAC3Jvb3RAdGVzdHZtAQI="
+  default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMBuo2YB+qNQSuc5sdTz2vQCdYEeK0Bx8APPgBLHSB3y root@testvm"
   description = "ssh-keygen -t ed25519"
 }
