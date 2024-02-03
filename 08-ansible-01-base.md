@@ -59,4 +59,5 @@
 ![](ansible01/ans12.JPG)
 
 5. Напишите скрипт на bash: автоматизируйте поднятие необходимых контейнеров, запуск ansible-playbook и остановку контейнеров.
+[Скрипт](https://github.com/MilagroUfa/u4eba/blob/master/08_ansible_src/ansible2/playbook/script.sh)
 6. Все изменения должны быть зафиксированы и отправлены в ваш личный репозиторий.
